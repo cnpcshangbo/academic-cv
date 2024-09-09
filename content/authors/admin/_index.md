@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Bo Shang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Bo
+last_name: Shang
 
 # Status emoji
 status:
@@ -20,167 +20,122 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Post-Doc Researcher and Adjunct Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: CCNY Robotics Lab
+    url: https://www.ccny.cuny.edu/
+  - name: CUNY City College
+    url: https://www.ccny.cuny.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:bshang@ccny.cuny.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://cnpcshangbo.github.io/
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
+  - Robotics
+  - Unmanned Aerial Systems
+  - Computer Vision
+  - Control Systems
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
+  - area: Ph.D. in Pattern Recognition and Intelligent Systems
+    institution: Northeastern University, China
+    date_start: 2013-01-01
     date_end: 2020-12-31
+  - area: Exchange Ph.D. student
+    institution: University of California at Merced, USA
+    date_start: 2015-01-01
+    date_end: 2017-12-31
+  - area: M.E. in Pattern Recognition and Intelligent Systems
+    institution: Northeastern University, China
+    date_start: 2011-01-01
+    date_end: 2013-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      GPA: 3.28
+  - area: B.E. in Automation
+    institution: Northeastern University, China
+    date_start: 2007-01-01
+    date_end: 2011-12-31
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.42-3.74
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Post-Doc Researcher
+    company_name: CCNY Robotics Lab
+    company_url: 'https://www.ccny.cuny.edu/'
+    date_start: 2022-12-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Adjunct Assistant Professor
+    company_name: CUNY City College
+    company_url: 'https://www.ccny.cuny.edu/'
+    date_start: 2023-08-01
+    date_end: ''
+  - position: Post Doctoral Fellow
+    company_name: Missouri University of Science and Technology
+    date_start: 2020-01-01
+    date_end: 2022-12-31
+  - position: Lecturer & Junior Specialist
+    company_name: University of California, Merced
+    company_url: 'https://engineering.ucmerced.edu/content/bo-shang'
+    date_start: 2015-01-01
+    date_end: 2017-12-31
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
-      - name: Data Science
+      - name: Robotics
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 95
+        icon: robot
+      - name: Computer Vision
         description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+        percent: 85
+        icon: eye
+      - name: Control Systems
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        percent: 90
+        icon: cog
 
 languages:
   - name: English
-    percent: 100
+    percent: 90
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: Teaching Certificate
+    date: '2021-01-01'
+    awarder: ACUE
+  - title: Remote Pilot Certificate (Small Unmanned Aircraft System)
+    date: '2016-01-01'
+    awarder: Federal Aviation Administration (USA)
+  - title: Best System Control Award
+    date: '2014-01-01'
+    awarder: International Aerial Robotics Competition (AUVSI Foundation)
+  - title: Best Mission Planning Award
+    date: '2014-01-01'
+    awarder: International Aerial Robotics Competition (AUVSI Foundation)
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr. Bo Shang is a Post-Doc researcher at CCNY Robotics Lab and Adjunct Assistant Professor at CUNY City College. His research focuses on robotics, unmanned aerial systems, computer vision, and control systems. Dr. Shang has extensive experience in developing advanced robotic systems for various applications, including bridge inspection and autonomous navigation.
+
+With a Ph.D. in Pattern Recognition and Intelligent Systems from Northeastern University, China, and experience as an exchange Ph.D. student at the University of California at Merced, Dr. Shang brings a wealth of knowledge and international perspective to his work. He has contributed to numerous research projects, published in reputable journals, and holds patents in the field of robotics and unmanned systems.
+
+Dr. Shang is passionate about teaching and has experience instructing courses in Mechatronics, Engineering Computing, and Unmanned Aircraft Systems. He is also actively involved in the robotics community, serving as a coach for FIRST Robotics Competition and a judge for VEX Robotics Competition.
